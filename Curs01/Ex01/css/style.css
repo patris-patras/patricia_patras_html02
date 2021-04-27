@@ -30,17 +30,48 @@ body {
   background-color: lightpink;
 }
 
+body > h1 {
+  display: none;
+}
+
+body > h3 {
+  display: none;
+}
 
 @media (max-width: 576px) {
-
+  .box-1 {
+    display: none;
+  }
 }
 
 @media (max-width: 768px) {
-
 }
 
 @media (max-width: 992px) {
-
 }
 
+@media (max-width: 1200px) and (min-width: 600px) {
+  body > h1 {
+    display: block;
+  }
+}
 
+@media (min-width: 577px) {
+  body > h3 {
+    display: block;
+  }
+}
+
+@media (min-width: 1000px) {
+  body > h3 {
+    color: red;
+  }
+}
+
+@media (min-width: 1200px) {
+  body > h3 {
+    display: none;
+  }
+}
+
+/* puncte facute live 9, 16, 18, 19-e ala cu prob*/

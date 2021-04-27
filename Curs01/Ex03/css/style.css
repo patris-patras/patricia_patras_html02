@@ -1,0 +1,11 @@
+picture {
+  display: block;
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  picture img {
+    display: block;
+    width: 100%;
+  }
+}
