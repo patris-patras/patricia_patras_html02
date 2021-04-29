@@ -1,0 +1,34 @@
+@mixin square {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  background-color: turquoise;
+}
+
+@mixin square-bg($bg-color: red) {
+  background-color: $bg-color;
+}
+
+.squares {
+  width: 80%;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.square {
+  @include square();
+}
+
+.square-magenta {
+  @include square-bg(magenta);
+}
+
+.square-peru {
+  @include square-bg(peru);
+}
+
+.square-purple {
+  @include square-bg(purple);
+}
