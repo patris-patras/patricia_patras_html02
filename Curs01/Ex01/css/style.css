@@ -38,9 +38,37 @@ body > h3 {
   display: none;
 }
 
+@media (min-width: 1200px) {
+  body > h3 {
+    display: none;
+  }
+}
+
+body > h2 {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  .box-1 {
+    display: none;
+  }
+}
+
 @media (max-width: 576px) {
   .box-1 {
     display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .box-2 {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  body {
+    padding: 15px;
   }
 }
 
@@ -48,6 +76,40 @@ body > h3 {
 }
 
 @media (max-width: 992px) {
+  .box-4 {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .box-4 {
+    color: red;
+  }
+}
+
+@media (max-width: 992px) {
+  .box-2 {
+    color: white;
+    border-color: yellow;
+  }
+}
+
+@media (max-width: 768px) {
+  .box-5 {
+    color: white;
+  }
+}
+
+@media (max-width: 768px) {
+  .box-3 {
+    border-color: green;
+  }
+}
+
+@media (min-width: 992px) {
+  .box-3 {
+    display: none;
+  }
 }
 
 @media (max-width: 1200px) and (min-width: 600px) {
@@ -68,10 +130,8 @@ body > h3 {
   }
 }
 
-@media (min-width: 1200px) {
-  body > h3 {
-    display: none;
+@media (max-width: 1000px) and (min-width: 500px) {
+  body > h2 {
+    display: block;
   }
 }
-
-/* puncte facute live 9, 16, 18, 19-e ala cu prob*/

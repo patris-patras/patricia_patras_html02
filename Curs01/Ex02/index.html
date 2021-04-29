@@ -9,11 +9,37 @@
     rel="stylesheet"
     href="https://pixellab.ro/js/pixeltab/static/js/pixeltab.css"
   >
+
+  <link
+    rel="stylesheet"
+    href="css/style.css"
+  >
 </head>
 
 <body>
 
+  <picture>
+    <source
+      media="(max-width: 576px)"
+      srcset="images/w150.png"
+    >
 
+    <source
+      media="(max-width: 768px)"
+      srcset="images/w420.png"
+    >
+
+    <source
+      media="(max-width: 992px)"
+      srcset="images/w820.png"
+    >
+
+    <img
+      src="images/w1900.png"
+      alt="w19000"
+    >
+
+  </picture>
 
   <div
     class="pixeltab-host"
