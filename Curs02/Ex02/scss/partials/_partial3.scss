@@ -1,0 +1,11 @@
+.brand-special {
+  $brand-main: pink;
+
+  background-color: $brand-main;
+  color: $brand-neutral;
+}
+
+.x {
+  color: $brand-main;
+}
+// e tot rosu pentru ca rozul a ramas doar in contextul ala

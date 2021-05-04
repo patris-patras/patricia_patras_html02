@@ -1,0 +1,17 @@
+{
+  "name": "quick-sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "sass ./scss/app.scss ./css/style.css",
+    "minify": "sass ./scss/app.scss ./css/style.css --style compressed",
+    "watch": "sass --watch ./scss/app.scss:./css/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.32.12"
+  }
+}

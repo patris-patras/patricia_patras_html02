@@ -1,0 +1,33 @@
+.square,
+.square-purple,
+.square-peru,
+.square-magenta {
+  width: 200px;
+  height: 200px;
+  background-color: turquoise;
+  border: 1px solid black;
+}
+
+/* daca ii separi selectorii pixeltabul merge */
+
+.squares {
+  width: 80%;
+  margin: auto;
+  border: 1px solid black;
+  padding: 10px;
+  display: flex;
+}
+
+.square-magenta {
+  background-color: magenta;
+}
+
+.square-peru {
+  background-color: peru;
+}
+
+.square-purple {
+  background-color: purple;
+}
+
+/*# sourceMappingURL=style.css.map */

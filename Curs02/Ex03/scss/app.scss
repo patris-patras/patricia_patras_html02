@@ -1,0 +1,12 @@
+@mixin btn-class($cssClass: '.test', $cssProperty: 'color', $color: red) {
+  #{$cssClass} {
+    #{$cssProperty}: $color;
+  }
+}
+
+@include btn-class('.btn-primary', 'color', purple);
+
+@include btn-class('.btn-text-gray', 'color', gray);
+@include btn-class('.btn-inverted', 'background-color', transparent);
+
+// facem live primul si ultimul punct
