@@ -48,3 +48,19 @@ body {
   color: #fff;
 }
 /* do not touch this */
+
+/* punctul 3 */
+
+.flex-container-03 {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+/* pct 5 */
+
+.flex-container-05 {
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-around;
+}

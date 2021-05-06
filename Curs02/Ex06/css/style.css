@@ -1,0 +1,33 @@
+.line {
+  display: flex;
+  justify-content: space-between;
+  margin: 16px 0;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  border: 1px solid #000;
+}
+
+.b-dotted {
+  border-style: dotted;
+}
+
+.b-solid {
+  border-style: solid;
+}
+
+.b-dashed {
+  border-style: dashed;
+}
+
+.b-double {
+  border-style: double;
+}
+
+.b-none {
+  border-style: none;
+}
+
+/*# sourceMappingURL=style.css.map */

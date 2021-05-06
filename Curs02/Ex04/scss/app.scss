@@ -9,3 +9,21 @@
   height: 150px;
   border: 1px solid #000;
 }
+
+@for $i from 1 through 5 {
+  .box-#{$i} {
+    border-width: #{$i}px;
+  }
+}
+
+@for $i from 1 through 5 {
+  @if $i % 2 !=0 {
+    .box-#{$i}0 {
+      background-color: gray;
+    }
+  }
+}
+
+// punctul 2 - live + 4
+
+// mai incolo invatam modulo -> % (idem in JS)

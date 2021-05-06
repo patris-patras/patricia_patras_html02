@@ -1,0 +1,27 @@
+.line {
+  display: flex;
+  justify-content: space-between;
+  margin: 16px 0;
+}
+
+.btn-main {
+  color: red;
+}
+
+.btn-primary {
+  color: blue;
+}
+
+.btn-secondary {
+  color: green;
+}
+
+.btn-tertiary {
+  color: yellow;
+}
+
+.btn-neutral {
+  color: gray;
+}
+
+/*# sourceMappingURL=style.css.map */

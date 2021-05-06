@@ -1,0 +1,45 @@
+.line {
+  display: flex;
+  justify-content: space-between;
+  margin: 16px 0;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  border: 1px solid #000;
+}
+
+.box-1 {
+  border-width: 1px;
+}
+
+.box-2 {
+  border-width: 2px;
+}
+
+.box-3 {
+  border-width: 3px;
+}
+
+.box-4 {
+  border-width: 4px;
+}
+
+.box-5 {
+  border-width: 5px;
+}
+
+.box-10 {
+  background-color: gray;
+}
+
+.box-30 {
+  background-color: gray;
+}
+
+.box-50 {
+  background-color: gray;
+}
+
+/*# sourceMappingURL=style.css.map */

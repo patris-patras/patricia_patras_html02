@@ -3,3 +3,20 @@
   justify-content: space-between;
   margin: 16px 0;
 }
+
+$colors: (
+  'main': red,
+  'primary': blue,
+  'secondary': green,
+  'tertiary': yellow,
+  'neutral': gray,
+);
+
+@each $type, $color in $colors {
+  .btn-#{$type} {
+    color: $color;
+  }
+}
+//@each $type, $color in $colors citit: "ptr fiecare type si color din colors"
+
+//tehnica din exc asta e cea pe care tre sa o fol in exc 6 :D
