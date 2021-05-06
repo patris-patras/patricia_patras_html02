@@ -1,14 +1,9 @@
-.square,
-.square-purple,
-.square-peru,
-.square-magenta {
+.square, .square-purple, .square-peru, .square-magenta {
   width: 200px;
   height: 200px;
   background-color: turquoise;
   border: 1px solid black;
 }
-
-/* daca ii separi selectorii pixeltabul merge */
 
 .squares {
   width: 80%;
@@ -28,6 +23,32 @@
 
 .square-purple {
   background-color: purple;
+}
+
+.circles {
+  margin: auto;
+  width: 80%;
+  border: 1px solid black;
+}
+
+.circle, .circle-blue, .circle-green, .circle-red {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: brown;
+  border: 1px solid black;
+}
+
+.circle-red {
+  background-color: red;
+}
+
+.circle-green {
+  background-color: green;
+}
+
+.circle-blue {
+  background-color: blue;
 }
 
 /*# sourceMappingURL=style.css.map */

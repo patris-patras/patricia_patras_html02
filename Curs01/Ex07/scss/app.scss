@@ -9,3 +9,17 @@
     display: none;
   }
 }
+
+@mixin mq-sm-up {
+  @media (min-width: 501px) {
+    @content;
+  }
+}
+
+.box-2 {
+  @include mq-sm-up() {
+    background-color: green;
+  }
+}
+
+//cerinta e gresita in pixeltab, cere display none, dar corecteaza bckg col

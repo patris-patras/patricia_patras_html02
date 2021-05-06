@@ -2,12 +2,24 @@
   color: purple;
 }
 
-.btn-text-gray {
-  color: gray;
+.btn-secondary {
+  color: blue;
 }
 
 .btn-inverted {
   background-color: transparent;
+}
+
+.btn-inverted-light {
+  background-color: lightgray;
+}
+
+.btn-tertiary {
+  color: green;
+}
+
+.btn-text-gray {
+  color: gray;
 }
 
 /*# sourceMappingURL=style.css.map */

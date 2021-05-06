@@ -1,18 +1,16 @@
-/* Error: Undefined variable.
- *   ,
- * 2 |   background-color: $brand-name;
- *   |                     ^^^^^^^^^^^
- *   '
- *   scss\partials\_partial1.scss 2:21  @import
- *   scss\app.scss 2:9                  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a   \2577 \a 2 \2502    background-color: $brand-name;\d\a   \2502                      ^^^^^^^^^^^\a   \2575 \a   scss\\partials\\_partial1.scss 2:21  @import\a   scss\\app.scss 2:9                  root stylesheet";
+.brand {
+  background-color: red;
+  color: gray;
 }
+
+.brand-inverted {
+  color: blue;
+  background-color: gray;
+}
+
+.brand-special {
+  background-color: pink;
+  color: gray;
+}
+
+/*# sourceMappingURL=style.css.map */
