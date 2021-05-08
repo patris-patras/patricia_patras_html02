@@ -24,6 +24,15 @@
   }
 }
 
+$height: 150px;
+
+@for $i from 1 to 5 {
+  .box-0#{$i} {
+    height: #{($i * 5px + $height)};
+    width: #{($i * 5px + $height)};
+  }
+}
+
 // punctul 2 - live + 4
 
 // mai incolo invatam modulo -> % (idem in JS)
