@@ -64,3 +64,25 @@ body {
   align-items: flex-end;
   justify-content: space-around;
 }
+
+.flex-container-01 {
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.flex-container-02 {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+.flex-container-04 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-container-06 {
+  flex-direction: column;
+}

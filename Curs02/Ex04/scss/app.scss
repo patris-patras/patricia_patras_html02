@@ -16,18 +16,10 @@
   }
 }
 
-@for $i from 1 through 5 {
-  @if $i % 2 !=0 {
-    .box-#{$i}0 {
-      background-color: gray;
-    }
-  }
-}
+$height: 145px;
 
-$height: 150px;
-
-@for $i from 1 to 5 {
-  .box-0#{$i} {
+@for $i from 1 to 6 {
+  .box-#{$i} {
     height: #{($i * 5px + $height)};
     width: #{($i * 5px + $height)};
   }
@@ -36,3 +28,11 @@ $height: 150px;
 // punctul 2 - live + 4
 
 // mai incolo invatam modulo -> % (idem in JS)
+
+@for $i from 1 through 5 {
+  @if $i % 2 !=0 {
+    .box-#{$i}0 {
+      background-color: gray;
+    }
+  }
+}

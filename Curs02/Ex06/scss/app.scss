@@ -19,3 +19,24 @@ $borderStyles: dotted, solid, dashed, double, none;
 }
 
 //punctul 2 live dotted, solid, dashed, double si none
+
+// $marginWidths:
+
+$carnati: (
+  'xs': 4px,
+  'sm': 8px,
+  'md': 16px,
+  'lg': 32px,
+);
+
+@each $carnat, $saucisson in $carnati {
+  .m-#{$carnat} {
+    margin: $saucisson;
+  }
+}
+
+@each $carnat, $saucisson in $carnati {
+  .p-#{$carnat} {
+    padding: $saucisson;
+  }
+}

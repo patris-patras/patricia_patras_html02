@@ -20,3 +20,31 @@ $colors: (
 //@each $type, $color in $colors citit: "ptr fiecare type si color din colors"
 
 //tehnica din exc asta e cea pe care tre sa o fol in exc 6 :D
+
+$bk-color: (
+  'main': red,
+  'primary': blue,
+  'secondary': green,
+  'tertiary': yellow,
+  'neutral': gray,
+);
+
+@each $type, $color in $bk-color {
+  .btn-bg-#{$type} {
+    background-color: $color;
+  }
+}
+
+$text-color: (
+  'main': red,
+  'primary': blue,
+  'secondary': green,
+  'tertiary': yellow,
+  'neutral': gray,
+);
+
+@each $type, $color in $text-color {
+  .text-#{$type} {
+    color: $color;
+  }
+}
