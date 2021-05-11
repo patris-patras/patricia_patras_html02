@@ -48,3 +48,17 @@ body {
   color: #fff;
 }
 /* do not touch this */
+
+/* live: pct 3 */
+
+.flex-container-03 {
+  flex-direction: column-reverse;
+}
+
+.flex-container-03 :nth-child(2) {
+  flex-grow: 2;
+}
+
+.flex-container-03 :nth-of-type(4) {
+  flex-grow: 1;
+}

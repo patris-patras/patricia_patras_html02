@@ -9,7 +9,7 @@ body {
   flex-basis: 200px;
   max-width: 200px;
   flex-shrink: 1;
-  height: 600px; 
+  height: 600px;
   border: 1px solid #000;
   margin: 25px auto;
   display: flex;
@@ -17,33 +17,44 @@ body {
 }
 
 .flex-item {
-  display: flex; 
+  display: flex;
   justify-content: center;
   align-items: center;
   flex-basis: 75px;
-  max-width: 75px; 
-  height: 75px; 
+  max-width: 75px;
+  height: 75px;
   flex-shrink: 1;
-  border: 1px solid red; 
+  border: 1px solid red;
   background-color: #000;
-  color: #fff; 
+  color: #fff;
   font-weight: bold;
   font-size: 22px;
 }
 
 .underlay {
-  position: absolute; 
-  top: 0; 
-  left: 0; 
-  bottom: 0; 
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
   right: 0;
   background-color: lightblue;
-  display: flex; 
+  display: flex;
   align-items: center;
   justify-content: center;
   z-index: -1;
   font-size: 150px;
-  font-weight: bold; 
+  font-weight: bold;
   color: #fff;
 }
 /* do not touch this */
+
+/* 1 */
+
+.flex-container-01 {
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: center;
+}
+
+.flex-container-02 {
+}
