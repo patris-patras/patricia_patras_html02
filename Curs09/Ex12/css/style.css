@@ -48,7 +48,12 @@ body {
 }
 /* do not touch this */
 
-/* 1 */
+/* Pentru cutia 2, seteaza wrap-reverse, align-content: space-between si justify-content: space-between
+Pentru cutia 3, seteaza wrap, align-content: space-between si justify-content: flex-end
+Pentru cutia 4, seteaza wrap, align-content: flex-end si justify-content: flex-start
+Pentru cutia 5, seteaza wrap, align-content: flex-start si justify-content: space-around
+Pentru cutia 6, seteaza wrap, align-content: center si justify-content: center
+ */
 
 .flex-container-01 {
   flex-wrap: wrap;
@@ -57,4 +62,31 @@ body {
 }
 
 .flex-container-02 {
+  flex-wrap: wrap-reverse;
+  align-content: space-between;
+  justify-content: space-between;
+}
+
+.flex-container-03 {
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: flex-end;
+}
+
+.flex-container-04 {
+  flex-wrap: wrap;
+  align-content: flex-end;
+  justify-content: flex-start;
+}
+
+.flex-container-05 {
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: space-around;
+}
+
+.flex-container-06 {
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
 }

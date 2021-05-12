@@ -48,3 +48,94 @@ body {
   color: #fff;
 }
 /* do not touch this */
+
+.flex-container-01 {
+  flex-direction: column-reverse;
+}
+
+.flex-container-01 :nth-child(5) {
+  order: 1;
+}
+
+.flex-container-01 :nth-child(2) {
+  order: -1;
+}
+
+.flex-container-01 :nth-child(3) {
+  order: 3;
+}
+
+.flex-container-01 :nth-child(4) {
+  order: 2;
+}
+
+.flex-container-02 {
+  flex-direction: column;
+}
+
+.flex-container-02 :nth-child(3) {
+  order: -1;
+}
+
+.flex-container-03 {
+  flex-direction: column-reverse;
+}
+
+.flex-container-03 :nth-child(3) {
+  order: 1;
+}
+
+.flex-container-03 :nth-child(2) {
+  order: 2;
+}
+
+.flex-container-04 {
+  flex-direction: column;
+}
+
+.flex-container-04 :nth-child(3) {
+  order: -1;
+}
+
+.flex-container-04 :nth-child(2) {
+  order: 1;
+}
+
+.flex-container-04 :nth-child(4) {
+  order: 3;
+}
+
+.flex-container-04 :nth-child(5) {
+  order: 2;
+}
+
+.flex-container-05 {
+  flex-direction: column-reverse;
+}
+.flex-container-05 :nth-child(2) {
+  order: -1;
+}
+.flex-container-05 :nth-child(5) {
+  order: 1;
+}
+.flex-container-05 :nth-child(3) {
+  order: 2;
+}
+.flex-container-05 :nth-child(4) {
+  order: 3;
+}
+
+.flex-container-06 {
+  flex-direction: column;
+}
+.flex-container-06 :nth-child(3) {
+  order: -1;
+}
+
+/* Pentru cutia 1, orienteaza elementele pe coloana invers si folosind proprietatea order, aranjeaza numerele in ordine crescatoare
+Pentru cutia 2, orienteaza elementele pe coloana si aranjeaza numerele in ordine descrescatoare
+Pentru cutia 3, orienteaza elementele pe coloana invers si aranjeaza numerele in ordine crescatoare
+Pentru cutia 4, orienteaza elementele pe coloana si aranjeaza numerele in ordine crescatoare
+Pentru cutia 5, orienteaza elementele pe coloana invers si aranjeaza numerele in ordine descrescatoare
+Pentru cutia 6, orienteaza elementele pe coloana si aranjeaza numerele in ordine crescatoare
+ */

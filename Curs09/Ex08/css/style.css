@@ -65,3 +65,65 @@
 .flex-container-03 :last-child {
   flex-shrink: 3;
 }
+
+.flex-container-01 {
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+.flex-container-01 :nth-child(2) {
+  flex-shrink: 2;
+}
+
+.flex-container-02 {
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex-container-02 :nth-child(2) {
+  align-self: flex-start;
+  flex-shrink: 2;
+}
+
+.flex-container-02 :last-child {
+  align-self: flex-end;
+}
+
+.flex-container-02 :nth-child(4) {
+  flex-shrink: 3;
+}
+
+.flex-container-04 {
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.flex-container-04 :nth-child(4) {
+  flex-shrink: 2;
+}
+
+.flex-container-04 :nth-child(3) {
+  flex-shrink: 3;
+}
+
+.flex-container-05 {
+  justify-content: center;
+}
+
+.flex-container-05 :nth-child(2) {
+  flex-shrink: 2;
+}
+
+.flex-container-06 {
+  align-items: center;
+  justify-content: space-around;
+}
+
+.flex-container-06 :nth-child(3) {
+  flex-shrink: 3;
+}
+.flex-container-06 :nth-child(5) {
+  flex-shrink: 0;
+}
