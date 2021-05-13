@@ -17,9 +17,172 @@
     rel="stylesheet"
     href="https://pixellab.ro/js/pixeltab/static/js/pixeltab.css"
   >
+
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0"
+    crossorigin="anonymous"
+  >
 </head>
 
 <body>
+
+  <header class="container mb-3">
+    <h1>Formular reteta</h1>
+  </header>
+
+  <form>
+    <section class="container mb-3">
+      <header class="row">
+        <h3>Reteta</h3>
+      </header>
+
+      <main class="row">
+        <div class="col-12 col-md-6">
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <label
+                class="input-group-text"
+                for="recipe-name"
+              >Nume reteta*</label>
+            </div>
+
+            <input
+              type="text"
+              class="form-control"
+              name="recipe-name"
+              id="recipe-name"
+            >
+          </div>
+
+
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <label
+                for=""
+                class="input-group-text h-100"
+              >
+                Descriere lunga*
+              </label>
+            </div>
+
+            <textarea
+              name="description"
+              id="description"
+              cols="30"
+              rows="8"
+              class="form-control"
+              placeholder="Descriere lunga*"
+            ></textarea>
+          </div>
+
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <label
+                for="description-short"
+                class="input-group-text h-100"
+              >
+                Descriere scurta*
+              </label>
+            </div>
+
+            <textarea
+              name="description-short"
+              id="description-short"
+              cols="30"
+              rows="4"
+              class="form-control"
+              placeholder="Descriere scurta*"
+            ></textarea>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 mt-3 mt-md-0">
+          <div class="form-group pb-4 mb-4">
+            <label
+              for="image"
+              class="d-block mb-2"
+            >Imagine principala*</label>
+            <input
+              type="file"
+              name="image"
+              id="image"
+            >
+          </div>
+
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <label
+                for="author"
+                class="input-group-text"
+              >Autor</label>
+            </div>
+
+            <select
+              name="author"
+              id="author"
+              class="flex-grow-1"
+            >
+              <option value="">--autor--</option>
+            </select>
+          </div>
+        </div>
+      </main>
+    </section>
+    <!-- reteta -->
+
+    <section class="container mb-3">
+      <header class="row">
+
+      </header>
+
+      <main class="row">
+        <div class="col-12"></div>
+
+        <div class="col-12">website</div>
+      </main>
+    </section>
+    <!-- author -->
+
+    <section class="container mb-3">
+      <header class="row">
+
+      </header>
+
+      <main class="row">
+        <div class="col-12"></div>
+
+        <div class="col-12">lista de ingrediente</div>
+      </main>
+    </section>
+    <!-- ingrediente -->
+
+    <section class="container mb-3">
+      <header class="row">
+
+      </header>
+
+      <main class="row">
+        <div class="col-12">
+
+        </div>
+      </main>
+
+      <footer class="row">
+        <div class="col-12">
+          butoane
+        </div>
+      </footer>
+    </section>
+    <!-- pasi -->
+
+    <section class="row">
+
+    </section>
+    <!-- form-controls -->
+  </form>
+
 
   <div
     class="pixeltab-host"
