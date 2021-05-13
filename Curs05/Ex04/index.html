@@ -11,6 +11,19 @@
     http-equiv="X-UA-Compatible"
     content="ie=edge"
   >
+
+  <link
+    rel="stylesheet"
+    href="./css/style.css"
+  >
+
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0"
+    crossorigin="anonymous"
+  >
+
   <title>Bootstrap Grid</title>
 </head>
 
@@ -18,46 +31,48 @@
 
   <div class="container">
     <div class="row">
-      <div class="col">16</div>
+      <div class="col order-last">16</div>
       <div class="col">1</div>
       <div class="col">3</div>
       <div class="col">23</div>
       <div class="col">41</div>
-      <div class="col">40</div>
-      <div class="col">8</div>
+      <div class="col order-last">40</div>
+      <div class="col order-last">8</div>
       <div class="col">11</div>
-      <div class="col">2</div>
+      <div class="col order-last">2</div>
       <div class="col">321</div>
-      <div class="col">88</div>
-      <div class="col">6</div>
+      <div class="col order-last">88</div>
+      <div class="col order-last">6</div>
     </div>
   </div>
 
   <div class="container">
     <div class="row">
-      <div class="col">Third</div>
-      <div class="col">Fourth</div>
-      <div class="col">First</div>
-      <div class="col">Second</div>
-      <div class="col">Sixth</div>
-      <div class="col">Third</div>
+      <div class="col order-3">Third</div>
+      <div class="col order-4">Fourth</div>
+      <div class="col order-1">First</div>
+      <div class="col order-2">Second</div>
+      <div class="col order-5">Sixth</div>
+      <div class="col order-3">Third</div>
     </div>
   </div>
 
   <div class="container">
     <div class="row">
-      <div class="col">87</div>
-      <div class="col">102</div>
-      <div class="col">3</div>
-      <div class="col">45</div>
-      <div class="col">92</div>
+      <div class="col order-2">87</div>
+      <div class="col order-first">102</div>
+      <div class="col order-last">3</div>
+      <div class="col order-3">45</div>
+      <div class="col order-1">92</div>
     </div>
   </div>
 
   <div class="container">
-    <div class="col afk"></div>
-    <div class="col ott"></div>
-    <div class="col tbp"></div>
+    <div class="row">
+      <div class="col afk order-last"></div>
+      <div class="col ott order-first"></div>
+      <div class="col tbp"></div>
+    </div>
   </div>
 </body>
 
