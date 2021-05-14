@@ -30,13 +30,20 @@
     rel="stylesheet"
     href="https://pixellab.ro/js/pixeltab/static/js/pixeltab.css"
   >
+
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0"
+    crossorigin="anonymous"
+  >
 </head>
 
 <body>
-  <div class="box">1</div>
-  <div class="box">2</div>
-  <div class="box">3</div>
-  <div class="box">4</div>
+  <div class="box d-inline-block d-md-none d-lg-block">1</div>
+  <div class="box d-inline-block d-lg-none d-xl-block">2</div>
+  <div class="box d-none d-sm-inline-block d-lg-none d-xl-block">3</div>
+  <div class="box d-none d-sm-inline-block d-md-none d-lg-block">4</div>
 
   <div
     class="pixeltab-host"

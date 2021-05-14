@@ -1,8 +1,10 @@
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
 .box {
   border: 1px solid #000;
   width: 120px;
   height: 120px;
-  padding: 5px;   
-  text-align: right;    
+  padding: 5px;
+  text-align: right;
   float: left;
 }
