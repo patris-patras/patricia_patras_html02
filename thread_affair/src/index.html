@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+  <title>Welcome to the Pixellab Builder</title>
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+</head>
+
+<body>
+  <header class="header">
+    <%= require('html-loader!./html/header.html')%>
+  </header>
+
+  <main class="main">
+    <header class="banner-main">
+      <%= require('html-loader!./html/homepage/carousel.html')%>
+    </header>
+
+
+    <main class="content-main">
+      <%= require('html-loader!./html/homepage/social.html')%>
+      <%= require('html-loader!./html/homepage/store-locator.html')%>
+      <%= require('html-loader!./html/homepage/payment.html')%>
+    </main>
+  </main>
+
+  <footer class="footer">
+    <%= require('html-loader!./html/footer.html')%>
+  </footer>
+</body>
+
+</html>
