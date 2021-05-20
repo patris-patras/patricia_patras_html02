@@ -7,7 +7,7 @@
     name="viewport"
     content="width=device-width, initial-scale=1.0"
   />
-  <title>Welcome to the Pixellab Builder</title>
+  <title>Thread Affair</title>
 
   <link
     rel="stylesheet"
@@ -29,9 +29,64 @@
     </header>
 
     <main class="content-main">
-      <%= require('html-loader!./html/homepage/social.html')%> <%=
-        require('html-loader!./html/homepage/store-locator.html')%> <%=
-        require('html-loader!./html/homepage/payment.html')%>
+      <section class="catalog-preview">
+        <header>
+          <h1>All time <span>bestsellers</span></h1>
+
+          <p>
+            Accomplish new achievements with a bold new style
+            from the brilliant collection of men’s designer suits. <br>
+            For the finest custom tailored experience, be sure to explore our selection of premium fabrics from one of
+            the
+            world's oldest fabric mills, Vitale Barberis Canonico.
+          </p>
+        </header>
+
+        <main class="product-tiles">
+          <%= require('html-loader!./html/homepage/catalog-preview-01.html')%>
+        </main>
+
+        <footer>
+          <a
+            href=""
+            class="catalog-cta"
+            title=""
+          >see more</a>
+        </footer>
+      </section>
+      <!-- ./catalog-preview -->
+
+      <section class="catalog-preview">
+        <header>
+          <h1>All time <span>bestsellers</span></h1>
+
+          <p>
+            Accomplish new achievements with a bold new style
+            from the brilliant collection of men’s designer suits. <br>
+            For the finest custom tailored experience, be sure to explore our selection of premium fabrics from one of
+            the
+            world's oldest fabric mills, Vitale Barberis Canonico.
+          </p>
+        </header>
+
+        <main class="product-tiles">
+          <%= require('html-loader!./html/homepage/catalog-preview-02.html')%>
+        </main>
+
+        <footer>
+          <a
+            href=""
+            class="catalog-cta"
+            title=""
+          >see more</a>
+        </footer>
+      </section>
+      <!-- ./catalog-preview -->
+
+      <%= require('html-loader!./html/homepage/newsletter.html')%>
+      <%= require('html-loader!./html/homepage/social.html')%>
+      <%= require('html-loader!./html/homepage/store-locator.html')%>
+      <%= require('html-loader!./html/homepage/payment.html')%>
     </main>
   </main>
 
