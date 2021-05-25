@@ -1,0 +1,30 @@
+@import './banner-main';
+@import './catalog-preview';
+@import './home-newsletter';
+@import './home-payment';
+@import './home-store-locator';
+@import './home-social';
+
+.homepage {
+  .content-main {
+    margin-top: 60px;
+
+    header {
+      text-align: center;
+
+      h1 {
+        color: $brand-primary;
+        font-weight: 300;
+        text-transform: capitalize;
+
+        span {
+          font-weight: 400;
+        }
+      }
+    }
+
+    section {
+      margin-bottom: 70px;
+    }
+  }
+}

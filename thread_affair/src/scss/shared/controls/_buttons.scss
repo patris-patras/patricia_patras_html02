@@ -1,0 +1,13 @@
+.button {
+  display: inline-block;
+  padding: 13px 35px;
+  background-color: $brand-primary;
+  color: $white;
+  text-transform: uppercase;
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+.button-large {
+  padding: 18px 40px;
+}
