@@ -26,5 +26,25 @@
     section {
       margin-bottom: 70px;
     }
+
+    .catalog-preview {
+      & > footer {
+        display: none;
+      }
+
+      &:nth-of-type(2) {
+        & > header {
+          display: none;
+        }
+
+        .product-tile {
+          &:first-child {
+            display: block;
+          }
+
+          display: none;
+        }
+      }
+    }
   }
 }

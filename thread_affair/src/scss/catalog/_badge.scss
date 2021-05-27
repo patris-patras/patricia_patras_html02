@@ -1,0 +1,22 @@
+.badge {
+  display: inline-flex;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: $brand-primary;
+  font-size: 16px;
+  justify-content: center;
+  align-items: center;
+  color: $white;
+  line-height: 20px;
+  font-weight: 300;
+}
+
+// BEM preview:
+.badge--text-lg {
+  font-size: 24px;
+}
+
+.badge--bg-secondary {
+  background-color: $brand-secondary;
+}

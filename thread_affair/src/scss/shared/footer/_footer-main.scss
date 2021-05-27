@@ -1,0 +1,73 @@
+.footer-main {
+  background-color: $misc-purple;
+  color: $gray-secondary;
+  font-size: 14px;
+
+  a {
+    color: $gray-secondary;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+
+  .footer-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    ul {
+      width: 45%;
+      margin-bottom: 32px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+  }
+
+  .footer-address {
+    h3 {
+      font-size: 16px;
+      text-transform: uppercase;
+      font-weight: 300;
+
+      span {
+        font-weight: 400;
+        color: $white;
+      }
+    }
+
+    a {
+      &[href^='mailto:'] {
+        color: $brand-primary;
+        text-transform: lowercase;
+      }
+    }
+  }
+
+  .footer-support {
+    text-align: center;
+    font-weight: 300;
+    margin-top: 32px;
+
+    li {
+      display: inline-block;
+      margin: 0 4px;
+
+      a {
+        display: inline-block;
+
+        // forta majora
+        i[class^='fa'] {
+          display: block;
+          color: $brand-primary;
+          font-size: 24px;
+          margin-bottom: 4px;
+        }
+      }
+    }
+  }
+}
+
+.footer-main-container {
+  padding: 25px;
+}
