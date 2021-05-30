@@ -1,0 +1,35 @@
+@import './about-content';
+@import './catalog-preview';
+@import './banner-main';
+
+.homepage {
+  .content-main {
+    margin-top: 35px;
+
+    header {
+      text-align: center;
+
+      > h1 {
+        font-size: 18px;
+        font-weight: 800;
+        text-transform: uppercase;
+        color: $gray-primary;
+      }
+    }
+
+    section {
+      margin-top: 20px;
+      border-top: 1px solid $gray-secondary;
+      padding-top: 15px;
+    }
+
+    .catalog-preview {
+      .product-tile:nth-of-type(2) {
+        display: none;
+      }
+      .product-tile:nth-of-type(3) {
+        display: none;
+      }
+    }
+  }
+}

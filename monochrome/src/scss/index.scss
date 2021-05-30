@@ -1,0 +1,27 @@
+//font-awesome
+$fa-font-path: '~@fortawesome/fontawesome-free/webfonts';
+@import '~@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@import '~@fortawesome/fontawesome-free/scss/brands';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+
+//fonts
+@import './fonts';
+
+//common
+@import './reset';
+@import './variables';
+
+// bootstrap @import '~bootstrap/scss/bootstrap';
+@import '~bootstrap/scss/bootstrap-grid';
+@import '~bootstrap/scss/bootstrap-reboot';
+@import '~bootstrap/scss/bootstrap-utilities';
+
+body {
+  font-family: 'Playfair Display', serif;
+  color: $gray-primary;
+}
+
+@import './shared/index';
+@import './homepage/index';
+@import './catalog/index';

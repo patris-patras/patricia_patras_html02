@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+  <title>About</title>
+</head>
+
+<body>
+  <div>
+    <!-- simple HTML templating also works, wrap it inside an element to fool the formatter-->
+    <%= require('html-loader!./html/nav.html')%>
+  </div>
+  <h1>About</h1>
+
+  <ol>
+    <li>npm install</li>
+    <li>npm start (for develpoment)</li>
+    <li>npm run build to build the production ready site</li>
+    <li>npm run preview to serve the build</li>
+    <li>add CSS or Sass files to index.js</li>
+    <li>~ is a replacement for node_modules</li>
+  </ol>
+
+</body>
+
+</html>

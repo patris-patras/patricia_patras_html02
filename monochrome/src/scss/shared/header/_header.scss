@@ -1,0 +1,12 @@
+.header {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+
+  .header-controls {
+    li {
+      display: inline-block;
+      margin-left: 4px;
+    }
+  }
+}

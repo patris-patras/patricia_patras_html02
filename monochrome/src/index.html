@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+  <title>Monochrome</title>
+</head>
+
+<body class="homepage">
+  <!-- <%= require('html-loader!./html/nav.html')%> -->
+
+  <header class="header container">
+    <%= require('html-loader!./html/header.html')%>
+  </header>
+
+  <main class="main">
+    <header class="banner-main">
+      <%= require('html-loader!./html/homepage/banner-main.html')%>
+    </header>
+
+    <main class="content-main">
+      <section class="catalog-preview container">
+        <header>
+          <h1>Spring Collection</h1>
+        </header>
+
+        <main class="product-tiles">
+          <%= require('html-loader!./html/homepage/catalog-preview01.html')%>
+        </main>
+      </section>
+
+      <section class="catalog-preview container">
+        <header>
+          <h1>Best reviewed</h1>
+        </header>
+
+        <main class="product-tiles">
+          <%= require('html-loader!./html/homepage/catalog-preview02.html')%>
+        </main>
+      </section>
+
+      <section class="about-content container">
+        <%= require('html-loader!./html/homepage/about-content.html')%>
+      </section>
+
+      <section class="catalog-preview container">
+        <header>
+          <h1>Men's</h1>
+        </header>
+
+        <main class="product-tiles">
+          <%= require('html-loader!./html/homepage/catalog-preview03.html')%>
+        </main>
+      </section>
+
+      <section class="catalog-preview container">
+        <header>
+          <h1>Women's</h1>
+        </header>
+
+        <main class="product-tiles">
+          <%= require('html-loader!./html/homepage/catalog-preview04.html')%>
+        </main>
+      </section>
+    </main>
+  </main>
+
+  <footer class="footer">
+    <%= require('html-loader!./html/footer.html')%>
+  </footer>
+
+</body>
+
+</html>
