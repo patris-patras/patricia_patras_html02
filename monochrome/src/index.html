@@ -11,19 +11,17 @@
 </head>
 
 <body class="homepage">
-  <!-- <%= require('html-loader!./html/nav.html')%> -->
-
   <header class="header container">
     <%= require('html-loader!./html/header.html')%>
   </header>
 
-  <main class="main">
+  <main class="main container">
     <header class="banner-main">
       <%= require('html-loader!./html/homepage/banner-main.html')%>
     </header>
 
     <main class="content-main">
-      <section class="catalog-preview container">
+      <section class="catalog-preview">
         <header>
           <h1>Spring Collection</h1>
         </header>
@@ -33,7 +31,7 @@
         </main>
       </section>
 
-      <section class="catalog-preview container">
+      <section class="catalog-preview">
         <header>
           <h1>Best reviewed</h1>
         </header>
@@ -47,7 +45,7 @@
         <%= require('html-loader!./html/homepage/about-content.html')%>
       </section>
 
-      <section class="catalog-preview container">
+      <section class="catalog-preview">
         <header>
           <h1>Men's</h1>
         </header>
@@ -57,7 +55,7 @@
         </main>
       </section>
 
-      <section class="catalog-preview container">
+      <section class="catalog-preview">
         <header>
           <h1>Women's</h1>
         </header>

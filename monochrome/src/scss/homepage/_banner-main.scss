@@ -3,10 +3,12 @@
   background: url('../images/5e2c439736bbafd351538732c2b69175.png') no-repeat
     center center;
   background-size: cover;
-  display: flex;
-  justify-content: right;
+  position: relative;
 
   .button {
+    position: absolute;
+    bottom: 15px;
+    right: 35px;
     background-color: $white;
     color: $gray-primary;
     border: 1px solid $gray-primary;
