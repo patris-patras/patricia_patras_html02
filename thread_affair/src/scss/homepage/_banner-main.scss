@@ -1,12 +1,23 @@
 .banner-main {
-  height: 716px;
   background: url('../images/banners/banner-02.jpg') no-repeat center center;
   background-size: cover;
-  color: $white;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  text-align: center;
+
+  .banner-main-container {
+    position: relative;
+    height: 716px;
+    color: $white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+
+    @include media-breakpoint-up('md') {
+      height: 572px;
+      justify-content: center;
+      align-items: flex-end;
+    }
+  }
 
   h1 {
     font-size: 49px;
@@ -30,10 +41,24 @@
     font-weight: 300;
     margin-bottom: 73px;
 
+    @include media-breakpoint-up('md') {
+      position: absolute;
+      right: 20px;
+      bottom: 20px;
+      margin: 0;
+      width: auto;
+      text-align: right;
+    }
+
     & > span {
       & > span {
         display: block;
         font-size: 24px;
+
+        @include media-breakpoint-up('md') {
+          display: inline;
+          font-size: 16px;
+        }
       }
     }
   }

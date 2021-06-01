@@ -6,6 +6,21 @@
   text-transform: uppercase;
   border-radius: 30px;
   text-decoration: none;
+  transition: color 0.2s linear, background-color.2s linear;
+
+  &:hover {
+    color: $white;
+  }
+
+  @include media-breakpoint-up('md') {
+    border: 1px solid $brand-primary;
+    background-color: transparent;
+    color: $brand-primary;
+
+    &:hover {
+      background-color: $brand-primary;
+    }
+  }
 }
 
 .button-large {

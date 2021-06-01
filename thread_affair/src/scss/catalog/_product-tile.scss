@@ -1,6 +1,11 @@
 .product-tile {
   text-align: center;
   margin-bottom: 80px;
+  max-width: 320px;
+
+  @include media-breakpoint-up('md') {
+    width: 27.386541%;
+  }
 
   .product-tile-header {
     margin-top: 16px;
@@ -12,7 +17,7 @@
   }
 
   .product-title {
-    font-size: 24px;
+    font-size: 24px !important;
     margin-bottom: 0;
 
     a {
@@ -54,6 +59,10 @@
 
   .product-tile-image-container {
     position: relative;
+
+    img {
+      width: 100%;
+    }
   }
 
   .product-tile-badge {

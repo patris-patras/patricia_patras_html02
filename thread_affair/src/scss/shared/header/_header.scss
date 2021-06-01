@@ -36,6 +36,11 @@
     width: 120px;
     margin: -70px auto 0 auto;
 
+    @include media-breakpoint-up('md') {
+      width: 200px;
+      margin: 0 auto;
+    }
+
     img {
       width: 100%;
     }

@@ -14,13 +14,32 @@
     flex-wrap: wrap;
     justify-content: space-between;
 
+    @include media-breakpoint-up('md') {
+      display: block;
+    }
+
     ul {
       width: 45%;
       margin-bottom: 32px;
+
+      @include media-breakpoint-up('md') {
+        width: auto;
+        display: inline-block;
+        margin-right: 85px;
+      }
     }
 
     li {
       margin-bottom: 8px;
+    }
+  }
+
+  .footer-contact {
+    @include media-breakpoint-up('md') {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: flex-end;
+      align-items: flex-end;
     }
   }
 
@@ -40,6 +59,12 @@
       &[href^='mailto:'] {
         color: $brand-primary;
         text-transform: lowercase;
+      }
+    }
+
+    @include media-breakpoint-up('md') {
+      p {
+        margin-bottom: 0;
       }
     }
   }
@@ -65,9 +90,20 @@
         }
       }
     }
+
+    @include media-breakpoint-up('md') {
+      margin-right: 64px;
+    }
   }
 }
 
 .footer-main-container {
   padding: 25px;
+
+  @include media-breakpoint-up('md') {
+    padding: {
+      right: 12px;
+      left: 12px;
+    }
+  }
 }
