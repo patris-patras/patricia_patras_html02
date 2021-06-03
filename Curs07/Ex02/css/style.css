@@ -1,0 +1,21 @@
+@keyframes round {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+
+  25% {
+    transform: translate(0, calc(100vh - 100px));
+  }
+
+  75% {
+    transform: translate(calc(100vw - 100px), calc(100vh - 100px));
+  }
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  animation: round 10s ease-out forwards infinite;
+}

@@ -1,0 +1,42 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  height: 100vh;
+}
+
+.spinner {
+  display: flex;
+}
+
+.spinner__box {
+  width: 15px;
+  height: 15px;
+  margin: 0 4px;
+  background-color: black;
+  position: relative;
+  animation: load 0.5s linear infinite alternate forwards;
+}
+
+.spinner__box:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.spinner__box:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.spinner__box:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+@keyframes load {
+  from {
+    top: 0;
+  }
+
+  to {
+    top: -15px;
+  }
+}
