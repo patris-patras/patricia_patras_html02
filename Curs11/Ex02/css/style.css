@@ -6,3 +6,8 @@
 }
 /* can't touch this 🔨 */
 
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 120px 20% 2fr;
+  grid-template-rows: 25px 200px 110px;
+}

@@ -1,0 +1,29 @@
+@keyframes box-work {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+
+  25% {
+    transform: translate(0, calc(100vh - 100px));
+  }
+
+  50% {
+    transform: translate(calc(100vw - 100px), calc(100vh - 100px));
+  }
+
+  70% {
+    transform: translate(calc(100vw - 100px), 0);
+  }
+
+  85% {
+    transform: translate(0, calc(100vh - 100px));
+  }
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: teal;
+  animation: box-work 8s ease-out forwards infinite;
+}

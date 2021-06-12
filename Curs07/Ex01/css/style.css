@@ -8,6 +8,34 @@
   }
 }
 
+@keyframes bar-02-animation {
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes bar-03-animation {
+  0% {
+    background-color: green;
+    width: 100%;
+  }
+
+  25% {
+    width: 75%;
+    background-color: yellow;
+  }
+
+  75% {
+    width: 200px;
+    background-color: red;
+  }
+
+  100% {
+    width: 5px;
+    background-color: blue;
+  }
+}
+
 @keyframes bar-04-animation {
   0% {
     background-color: red;
@@ -56,6 +84,20 @@
   animation-duration: 10s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in;
+}
+
+.bar-02 {
+  animation-name: bar-02-animation;
+  animation-duration: 8s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+.bar-03 {
+  animation-name: bar-03-animation;
+  animation-duration: 12s;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
 }
 
 .bar-04 {

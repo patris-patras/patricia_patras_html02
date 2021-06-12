@@ -1,10 +1,10 @@
 @keyframes loader {
   from {
-    opacity: 1;
+    color: white;
   }
 
   to {
-    opacity: 0;
+    color: black;
   }
 }
 
