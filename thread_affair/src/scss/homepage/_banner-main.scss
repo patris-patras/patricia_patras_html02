@@ -1,5 +1,5 @@
 .banner-main {
-  background: url('../images/banners/banner-02.jpg') no-repeat center center;
+  background: url('../images/banners/banner-01.jpg') no-repeat center center;
   background-size: cover;
 
   .banner-main-container {
@@ -30,6 +30,7 @@
     font-weight: 300;
   }
 
+  // .button.button-large
   .button {
     &.button-large {
       margin: 45px 0;

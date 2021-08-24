@@ -2,19 +2,13 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8">
   <meta
     name="viewport"
     content="width=device-width, initial-scale=1.0"
-  />
+  >
   <title>Thread Affair</title>
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer"
-  />
+
 </head>
 
 <body class="homepage">
@@ -24,6 +18,7 @@
 
   <main class="main">
     <header class="banner-main">
+      <%= require('html-loader!./html/homepage/glide.html')%>
       <%= require('html-loader!./html/homepage/carousel.html')%>
     </header>
 
@@ -35,9 +30,8 @@
           <p>
             Accomplish new achievements with a bold new style
             from the brilliant collection of men’s designer suits. <br>
-            For the finest custom tailored experience, be sure to explore our selection of premium fabrics from one of
-            the
-            world's oldest fabric mills, Vitale Barberis Canonico.
+            For the finest custom tailored experience, be sure to explore our selection of
+            premium fabrics from one of the world's oldest fabric mills, Vitale Barberis Canonico.
           </p>
         </header>
 
@@ -48,23 +42,22 @@
         <footer>
           <a
             href=""
+            title="See more"
             class="catalog-cta"
-            title=""
           >see more</a>
         </footer>
       </section>
-      <!-- ./catalog-preview -->
+      <!-- /.catalog-preview -->
 
       <section class="catalog-preview container">
         <header>
-          <h1>New <span>collection</span></h1>
+          <h1>All time <span>bestsellers</span></h1>
 
           <p>
             Accomplish new achievements with a bold new style
             from the brilliant collection of men’s designer suits. <br>
-            For the finest custom tailored experience, be sure to explore our selection of premium fabrics from one of
-            the
-            world's oldest fabric mills, Vitale Barberis Canonico.
+            For the finest custom tailored experience, be sure to explore our selection of
+            premium fabrics from one of the world's oldest fabric mills, Vitale Barberis Canonico.
           </p>
         </header>
 
@@ -75,12 +68,12 @@
         <footer>
           <a
             href=""
+            title="See more"
             class="catalog-cta"
-            title=""
           >see more</a>
         </footer>
       </section>
-      <!-- ./catalog-preview -->
+      <!-- /.catalog-preview -->
 
       <%= require('html-loader!./html/homepage/newsletter.html')%>
       <%= require('html-loader!./html/homepage/social.html')%>
@@ -88,6 +81,7 @@
       <%= require('html-loader!./html/homepage/payment.html')%>
     </main>
   </main>
+
 
   <footer class="footer">
     <%= require('html-loader!./html/footer.html')%>
